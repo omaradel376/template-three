@@ -629,7 +629,6 @@ header nav .main-menu li:last-child:hover .mega-menu {
 }
 .features .container .box:first-child a::before {
   background-color: #f44036;
-  animation: ;
 }
 
 .features .container .box:nth-child(2) a::before {
@@ -1554,6 +1553,9 @@ border-top: 1px solid #eee;
   flex-direction: column;
   }
 }
+.footer .name-social a:hover {
+  padding-left: 0;
+}
 .footer .name-social i{
   background-color: #313131;
   color: #b9b9b9;
@@ -1564,6 +1566,7 @@ border-top: 1px solid #eee;
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 .footer .name-social p{
   color: #b9b9b9;
