@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OMAR</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/css/normlize.css" />
     <!-- css file main -->
     <link rel="stylesheet" href="css/style.css" />
@@ -641,12 +641,12 @@
       <div class="container">
         <img src="./images/skills.png" alt="" />
         <div class="content">
-          <div name="HTML" number="80%"><span style="width: 80%"></span></div>
-          <div name="CSS" number="85%"><span style="width: 85%"></span></div>
+          <div name="HTML" number="80%"><span data-width="80%" style="width: 80%"></span></div>
+          <div name="CSS" number="85%"><span data-width="85%" style="width: 85%"></span></div>
           <div name="JavaScript" number="70%">
-            <span style="width: 70%"></span>
+            <span data-width="70%" style="width: 70%"></span>
           </div>
-          <div name="Python" number="80%"><span style="width: 80%"></span></div>
+          <div name="Python" number="80%"><span data-width="80%" style="width: 80%"></span></div>
         </div>
       </div>
     </div>
@@ -849,23 +849,23 @@
       <div class="container">
         <div class="box">
           <i class="fa-regular fa-user"></i>
-          <h3>150</h3>
+          <h3 class="num" data-goal="150">0</h3>
           <p>clients</p>
         </div>
         <div class="box">
           <i class="fa-solid fa-code"></i>
-          <h3>135</h3>
+          <h3 class="num" data-goal="135">0</h3>
           <p>projects</p>
         </div>
 
         <div class="box">
           <i class="fa-solid fa-earth-americas"></i>
-          <h3>50</h3>
+          <h3 class="num" data-goal="50">0</h3>
           <p>countries</p>
         </div>
         <div class="box">
           <i class="fa-solid fa-money-bill-1-wave"></i>
-          <h3>500</h3>
+          <h3 class="num" data-goal="500">0</h3>
           <p>money</p>
         </div>
       </div>
@@ -984,5 +984,7 @@
       </div>
     </div>
     <!-- END FOOTER -->
+
+    <script src="main.js"></script>
   </body>
 </html>
